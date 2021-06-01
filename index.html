@@ -338,11 +338,6 @@ function BubbleSort(items) {
             }
         }
 
-        jsEditor.on("change", ({ from, to, text, removed, origin }) => {
-            jsEditor.save();
-            testCode();
-        });
-
         testBtnElement.addEventListener("click", testCode);
     </script>
     <p class="important">Copy your code into a file called "javascript.js" and include it in your zip file.</p>
